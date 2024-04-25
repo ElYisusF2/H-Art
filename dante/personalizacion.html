@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css">
+    <!--font awesome icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <title>personalizacion</title>
+</head>
+<body>
+    <main class="formulario seccion">
+
+        <div class="texto-personalizacion">
+            <h1>Perfil de preferencias</h1>
+            <img class="imagen-personalizacion" src="img/banner1.jpg" alt="Imagen de contacto" loading="lazy">
+            <h2>Llene el formulario de preferencias </h2>
+        </div>
+        
+        <form class="formulario-borde" id="miFormulario">
+            <fieldset>
+                <legend>Ayúdanos a mejorar tu experiencia rellenando el formulario</legend>
+        
+                <p>¿Cuál tipo de arte es tu favorito?</p>
+                
+                <div class="formu-personalizacion">
+                    <div>
+                        <label for="pintura">Pinturas</label>
+                        <input type="radio" id="pintura" name="tipo-arte" value="pintura">
+                    </div>
+                    <div>
+                        <label for="escultura">Escultura</label>
+                        <input type="radio" id="escultura" name="tipo-arte" value="escultura">
+                    </div>
+                    <div>
+                        <label for="otro">Otro</label>
+                        <input type="radio" id="otro" name="tipo-arte" value="otro">
+                    </div>
+                </div>
+                
+                
+                <p>¿Qué estilos de arte prefieres?</p>
+                
+                <div class="formu-estilos">
+                    <div>
+                        <label for="renacimiento">Renacimiento</label>
+                        <input name="estilos-arte" type="checkbox" value="renacimiento" id="renacimiento">
+                    </div>
+                    <div>
+                        <label for="barroco">Barroco</label>
+                        <input name="estilos-arte" type="checkbox" value="barroco" id="barroco">
+                    </div>
+                    <div>
+                        <label for="impresionismo">Impresionismo</label>
+                        <input name="estilos-arte" type="checkbox" value="impresionismo" id="impresionismo">
+                    </div>
+                    <div>
+                        <label for="cubismo">Cubismo</label>
+                        <input name="estilos-arte" type="checkbox" value="cubismo" id="cubismo">
+                    </div>
+                    <div>
+                        <label for="surrealismo">Surrealismo</label>
+                        <input name="estilos-arte" type="checkbox" value="surrealismo" id="surrealismo">
+                    </div>
+                    <div>
+                        <label for="pop-art">Pop Art</label>
+                        <input name="estilos-arte" type="checkbox" value="pop-art" id="pop-art">
+                    </div>
+                    <div>
+                        <label for="foto-realismo">Foto Realismo</label>
+                        <input name="estilos-arte" type="checkbox" value="foto-realismo" id="foto-realismo">
+                    </div>
+                    <div>
+                        <label for="expresionismo">Expresionismo</label>
+                        <input name="estilos-arte" type="checkbox" value="expresionismo" id="expresionismo">
+                    </div>
+                    <div>
+                        <label for="abstracto">Abstracto</label>
+                        <input name="estilos-arte" type="checkbox" value="abstracto" id="abstracto">
+                    </div>      
+                </div>
+                
+            </fieldset>
+            <input class="button boton-verde" type="submit" value="Enviar">
+        </form>
+        
+    </main>
+</body>
+<script src="js/app.js" ></script>
+</html>
